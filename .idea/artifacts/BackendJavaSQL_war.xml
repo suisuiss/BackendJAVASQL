@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BackendJavaSQL:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BackendJavaSQL</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BackendJavaSQL-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="BackendJavaSQL:war exploded" />
+    </root>
+  </artifact>
+</component>
